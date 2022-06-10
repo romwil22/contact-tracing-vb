@@ -1,7 +1,0 @@
-﻿FullName: test, test t
-Student Number: est
-Course: test	Year/Section: test
-Mobile Number: test
-Birthdate: est	Gender: TEST
-Address: 
-test test

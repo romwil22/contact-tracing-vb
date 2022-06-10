@@ -23,12 +23,6 @@
         Dim fileName As String
         fileName = lastNameBox.Text.ToUpper() + ".txt" ' file text creator
 
-
-
-
-
-        MessageBox.Show(lastNameBox.Text.ToUpper() + " text file successfully create.", "Information", MessageBoxButtons.OK
-                        )
         If lastNameBox.Text <> "" Then
             If System.IO.File.Exists(fileName) Then
                 MessageBox.Show("file already exist, create another text file.")
@@ -42,6 +36,8 @@
                 studentFile.WriteLine("Birthdate: " + birthdateBox.Text + vbTab + "Gender: " + yrSecBox.Text.ToUpper())
                 studentFile.WriteLine("Address: " + vbNewLine + addressRichBox.Text)
                 studentFile.Close()
+
+                MessageBox.Show(lastNameBox.Text.ToUpper() + ".txt" + " successfully created!")
             End If
         Else
             MessageBox.Show("Fill-up missing form.")
