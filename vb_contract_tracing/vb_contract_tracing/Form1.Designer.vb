@@ -54,6 +54,9 @@ Partial Class Form1
         Me.Panel11 = New System.Windows.Forms.Panel()
         Me.addressLabel = New System.Windows.Forms.Label()
         Me.addressRichBox = New System.Windows.Forms.RichTextBox()
+        Me.exitButton = New System.Windows.Forms.Button()
+        Me.saveButton = New System.Windows.Forms.Button()
+        Me.clearButton = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -406,12 +409,48 @@ Partial Class Form1
         Me.addressRichBox.TabIndex = 3
         Me.addressRichBox.Text = "1561 G. Pecfecto St. Tondo, Manila"
         '
+        'exitButton
+        '
+        Me.exitButton.BackColor = System.Drawing.Color.Red
+        Me.exitButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.exitButton.Location = New System.Drawing.Point(406, 387)
+        Me.exitButton.Name = "exitButton"
+        Me.exitButton.Size = New System.Drawing.Size(84, 51)
+        Me.exitButton.TabIndex = 4
+        Me.exitButton.Text = "Exit"
+        Me.exitButton.UseVisualStyleBackColor = False
+        '
+        'saveButton
+        '
+        Me.saveButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.saveButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.saveButton.Location = New System.Drawing.Point(314, 387)
+        Me.saveButton.Name = "saveButton"
+        Me.saveButton.Size = New System.Drawing.Size(84, 51)
+        Me.saveButton.TabIndex = 4
+        Me.saveButton.Text = "Save"
+        Me.saveButton.UseVisualStyleBackColor = False
+        '
+        'clearButton
+        '
+        Me.clearButton.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.clearButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.clearButton.Location = New System.Drawing.Point(224, 387)
+        Me.clearButton.Name = "clearButton"
+        Me.clearButton.Size = New System.Drawing.Size(84, 51)
+        Me.clearButton.TabIndex = 4
+        Me.clearButton.Text = "Clear"
+        Me.clearButton.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.MenuHighlight
         Me.ClientSize = New System.Drawing.Size(511, 450)
+        Me.Controls.Add(Me.clearButton)
+        Me.Controls.Add(Me.saveButton)
+        Me.Controls.Add(Me.exitButton)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel9)
         Me.Controls.Add(Me.Panel4)
@@ -483,4 +522,7 @@ Partial Class Form1
     Friend WithEvents Panel11 As Panel
     Friend WithEvents addressRichBox As RichTextBox
     Friend WithEvents addressLabel As Label
+    Friend WithEvents exitButton As Button
+    Friend WithEvents saveButton As Button
+    Friend WithEvents clearButton As Button
 End Class
