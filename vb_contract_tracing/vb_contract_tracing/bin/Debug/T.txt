@@ -1,0 +1,7 @@
+﻿FullName: t, t t
+Student Number: t
+Course: t	Year/Section: t
+Mobile Number: t
+Birthdate: t	Gender: T
+Address: 
+t

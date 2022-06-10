@@ -98,7 +98,6 @@ Partial Class Form1
         Me.nameBox.Name = "nameBox"
         Me.nameBox.Size = New System.Drawing.Size(123, 23)
         Me.nameBox.TabIndex = 1
-        Me.nameBox.Text = "Romwil James"
         '
         'nameLabel
         '
@@ -141,7 +140,6 @@ Partial Class Form1
         Me.miBox.Name = "miBox"
         Me.miBox.Size = New System.Drawing.Size(31, 23)
         Me.miBox.TabIndex = 1
-        Me.miBox.Text = "D."
         '
         'middleNameLabel
         '
@@ -173,7 +171,6 @@ Partial Class Form1
         Me.lastNameBox.Name = "lastNameBox"
         Me.lastNameBox.Size = New System.Drawing.Size(93, 23)
         Me.lastNameBox.TabIndex = 1
-        Me.lastNameBox.Text = "Pilapil"
         '
         'lastNameLabel
         '
@@ -205,7 +202,6 @@ Partial Class Form1
         Me.studentNumberBox.Name = "studentNumberBox"
         Me.studentNumberBox.Size = New System.Drawing.Size(123, 23)
         Me.studentNumberBox.TabIndex = 1
-        Me.studentNumberBox.Text = "2017-00128-MN-0"
         '
         'studentNumberLabel
         '
@@ -237,7 +233,6 @@ Partial Class Form1
         Me.yrSecBox.Name = "yrSecBox"
         Me.yrSecBox.Size = New System.Drawing.Size(71, 23)
         Me.yrSecBox.TabIndex = 1
-        Me.yrSecBox.Text = "5 1-D"
         '
         'yrSecLabel
         '
@@ -269,7 +264,6 @@ Partial Class Form1
         Me.courseBox.Name = "courseBox"
         Me.courseBox.Size = New System.Drawing.Size(62, 23)
         Me.courseBox.TabIndex = 1
-        Me.courseBox.Text = "BSCOE"
         '
         'courseLabel
         '
@@ -301,7 +295,6 @@ Partial Class Form1
         Me.birthdateBox.Name = "birthdateBox"
         Me.birthdateBox.Size = New System.Drawing.Size(78, 23)
         Me.birthdateBox.TabIndex = 1
-        Me.birthdateBox.Text = "11/22/1992"
         '
         'birthdateLabel
         '
@@ -333,7 +326,6 @@ Partial Class Form1
         Me.genderBox.Name = "genderBox"
         Me.genderBox.Size = New System.Drawing.Size(28, 23)
         Me.genderBox.TabIndex = 1
-        Me.genderBox.Text = "M"
         Me.genderBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'genderLabel
@@ -366,7 +358,6 @@ Partial Class Form1
         Me.mobileNumberBox.Name = "mobileNumberBox"
         Me.mobileNumberBox.Size = New System.Drawing.Size(123, 23)
         Me.mobileNumberBox.TabIndex = 1
-        Me.mobileNumberBox.Text = "09911236548"
         '
         'mobileNumberLabel
         '
@@ -407,7 +398,7 @@ Partial Class Form1
         Me.addressRichBox.Name = "addressRichBox"
         Me.addressRichBox.Size = New System.Drawing.Size(249, 114)
         Me.addressRichBox.TabIndex = 3
-        Me.addressRichBox.Text = "1561 G. Pecfecto St. Tondo, Manila"
+        Me.addressRichBox.Text = ""
         '
         'exitButton
         '
